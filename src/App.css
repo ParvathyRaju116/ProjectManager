@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.projects{
+  background-color:rgba(35, 60, 115, 0.08) ;
+  height: 450px;
+  width: 100%;
+}
+.btn1:hover{
+     border: rgb(35, 60, 115) 2px solid !important;
+     background-color:transparent!important;
+     color: rgb(35, 60, 115) !important;
+}
+.card1:hover{
+  transform: scale(1.05) !important;
+  transition: .5s ease-in-out;
+  box-shadow: 1px 0px 5px 0px;
+}
+.modalHeader{
+  background-color: rgba(35, 60, 115, 0.08);
+}
+h1{
+  color:  rgb(35, 60, 115);
+}
+.dashDiv{
+  background-color:rgba(35, 60, 115, 0.08)  ;
+}
+Button{
+  background-color:rgb(35, 60, 115) !important;
+  border: 0 !important;
+}
+span{
+  text-transform: capitalize !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* media query */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width:540px) {
+  .homeimg{
+    /* width: 400px !important; */
+    width: 100%;
   }
 }
